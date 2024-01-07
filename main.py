@@ -34,7 +34,7 @@ sankey(
     right=df["Países"],
     rightWeight=df["2023 - Valor FOB (US$)"], 
     aspect=60,
-    fontsize=8
+    fontsize=12
 )
 # Get current figure
 fig = plt.gcf()
